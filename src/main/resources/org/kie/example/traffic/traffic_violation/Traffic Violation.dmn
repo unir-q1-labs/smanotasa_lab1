@@ -18,6 +18,23 @@
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
+  <dmn:itemDefinition id="_9DD9BEAA-AA50-4F25-8EE1-7EC8AB7D530F" name="tViolation" isCollection="false">
+    <dmn:itemComponent id="_68E250F1-CD2B-4DFD-AB46-645B83858527" name="Code" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_F8D3E8F4-01DE-4EC0-A433-D26347512E94" name="Date" isCollection="false">
+      <dmn:typeRef>date</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_7DEFA644-D602-49A5-A0BE-7B4F119C87C6" name="Type" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_DF67C93B-662F-4CE7-B319-C8411EEDEB12" name="Speed Limit" isCollection="false">
+      <dmn:typeRef>number</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_E2BF2A71-994A-4759-B28C-10F04CBC83D8" name="Actual Speed" isCollection="false">
+      <dmn:typeRef>number</dmn:typeRef>
+    </dmn:itemComponent>
+  </dmn:itemDefinition>
   <dmn:inputData id="_D72B086A-F03A-4C6C-89C7-46B7ECEC752F" name="Driver">
     <dmn:extensionElements/>
     <dmn:variable id="_FDA97D62-84EC-4969-AF71-F1EDFC733788" name="Driver"/>
