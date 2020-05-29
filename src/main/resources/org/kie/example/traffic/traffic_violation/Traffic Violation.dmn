@@ -35,6 +35,14 @@
       <dmn:typeRef>number</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
+  <dmn:itemDefinition id="_27A402D9-02A7-49DE-A90B-A7AF69B7EB60" name="tFine" isCollection="false">
+    <dmn:itemComponent id="_E315CDB9-985F-4FBE-81B0-76C4635B0BC0" name="Amount" isCollection="false">
+      <dmn:typeRef>number</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_06D6630F-205D-4E8F-9011-EC3439064B1A" name="Points" isCollection="false">
+      <dmn:typeRef>number</dmn:typeRef>
+    </dmn:itemComponent>
+  </dmn:itemDefinition>
   <dmn:inputData id="_D72B086A-F03A-4C6C-89C7-46B7ECEC752F" name="Driver">
     <dmn:extensionElements/>
     <dmn:variable id="_FDA97D62-84EC-4969-AF71-F1EDFC733788" name="Driver"/>
