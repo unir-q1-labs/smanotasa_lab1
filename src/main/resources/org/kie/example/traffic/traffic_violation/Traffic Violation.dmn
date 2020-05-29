@@ -1,6 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_46070127-213C-41D5-AA35-B2379E944EC4" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_F7B91122-2084-4385-A70C-1CCC9363297B" name="Traffic Violation" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_46070127-213C-41D5-AA35-B2379E944EC4">
   <dmn:extensionElements/>
+  <dmn:itemDefinition id="_FF8A3B5C-A5F0-4000-B72D-F1A79D808249" name="tDriver" isCollection="false">
+    <dmn:itemComponent id="_E5D1487B-8DFF-4922-BF8B-2780871343D1" name="Name" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_1CA8DA6E-67EC-4FBB-8769-C1CC44A58A69" name="Age" isCollection="false">
+      <dmn:typeRef>number</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_4020A0AB-1250-48F9-A4D9-C1D830B88C01" name="State" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_49D02CB5-6BD6-4F13-9E35-6564A2A9AC80" name="City" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_180CDFE4-04EF-433E-8540-C2DCB9D7D267" name="Points" isCollection="false">
+      <dmn:typeRef>number</dmn:typeRef>
+    </dmn:itemComponent>
+  </dmn:itemDefinition>
   <dmn:inputData id="_D72B086A-F03A-4C6C-89C7-46B7ECEC752F" name="Driver">
     <dmn:extensionElements/>
     <dmn:variable id="_FDA97D62-84EC-4969-AF71-F1EDFC733788" name="Driver"/>
