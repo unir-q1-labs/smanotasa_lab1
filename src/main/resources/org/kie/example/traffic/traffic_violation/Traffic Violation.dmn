@@ -95,6 +95,34 @@
           <dmn:text>3</dmn:text>
         </dmn:outputEntry>
       </dmn:rule>
+      <dmn:rule id="_5025C502-9A88-4706-9BDA-F2262F5FAE52">
+        <dmn:inputEntry id="_9113F0C1-3D5F-4945-B131-9D3DE920EEC7">
+          <dmn:text>&gt;= 30</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_4EC361F9-4CD4-4AB5-A5D6-6C5619A6E7F3">
+          <dmn:text>"speed"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_74632C59-DD28-4ABF-A6B2-7B56D8694B7F">
+          <dmn:text>1000</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_AB49E702-3FFD-42B4-98BB-702340EBCFC5">
+          <dmn:text>7</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_CC07905E-1BE2-490C-AB0A-5F6122B6021F">
+        <dmn:inputEntry id="_B6CDE969-2F33-423A-9AC0-1F771AEA4750">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_239B88E5-A7D5-444F-B01F-DA24CC749A9E">
+          <dmn:text>"parking"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_908C19FE-47F7-457F-835B-C51E0E275FA8">
+          <dmn:text>100</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_08378BC0-59A3-4F0F-A14F-D486D34D1473">
+          <dmn:text>1</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
     </dmn:decisionTable>
   </dmn:decision>
   <dmn:inputData id="_CAD973DE-381C-4309-8251-62412ACF11D8" name="Violation">
