@@ -61,6 +61,19 @@
     <dmn:informationRequirement id="_A1B490AA-B22C-4E25-8B4A-F083163FD6F7">
       <dmn:requiredDecision href="#_E05EECD5-7B4C-4DA6-82FC-2429E61BE8BA"/>
     </dmn:informationRequirement>
+    <dmn:context id="_E6290612-7DB9-4EA0-AB21-2893964E30CF">
+      <dmn:contextEntry>
+        <dmn:variable id="_F754F1B1-FE32-4963-B054-783B6589A95A" name="Total Points" typeRef="number"/>
+        <dmn:literalExpression>
+          <dmn:text>null // auto-filled by the editor to avoid missing empty expression.</dmn:text>
+        </dmn:literalExpression>
+      </dmn:contextEntry>
+      <dmn:contextEntry>
+        <dmn:literalExpression id="_3D39537E-84CF-4F17-BAFC-BDBB15D8636C">
+          <dmn:text>if Total Points >= 20 then "Yes" else "No"</dmn:text>
+        </dmn:literalExpression>
+      </dmn:contextEntry>
+    </dmn:context>
   </dmn:decision>
   <dmn:decision id="_E05EECD5-7B4C-4DA6-82FC-2429E61BE8BA" name="Fine">
     <dmn:extensionElements/>
@@ -147,6 +160,14 @@
     <dmndi:DMNDiagram>
       <di:extension>
         <kie:ComponentsWidthsExtension>
+          <kie:ComponentWidths dmnElementRef="_E6290612-7DB9-4EA0-AB21-2893964E30CF">
+            <kie:width>50.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>300.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_3D39537E-84CF-4F17-BAFC-BDBB15D8636C">
+            <kie:width>300.0</kie:width>
+          </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_9A31E38B-65B4-4C66-975E-7A2B1181AFFD">
             <kie:width>50.0</kie:width>
             <kie:width>100.0</kie:width>
