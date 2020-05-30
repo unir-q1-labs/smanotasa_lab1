@@ -83,16 +83,16 @@
       <dmn:output id="_C1DDDA22-C5AD-4CE8-B138-DB0DEAB5E790" name="Points" typeRef="number"/>
       <dmn:rule id="_250F5763-2384-4A6C-931B-6FB51AE56FFA">
         <dmn:inputEntry id="_134B047F-BB83-437F-8969-760C3298E525">
-          <dmn:text>-</dmn:text>
+          <dmn:text>[10..30)</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_6AADAB7E-5F32-4C75-9401-C6E1D9C02973">
-          <dmn:text>-</dmn:text>
+          <dmn:text>"speed"</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_7207C16C-5862-42D9-B9AA-ECCDB338D38B">
-          <dmn:text></dmn:text>
+          <dmn:text>500</dmn:text>
         </dmn:outputEntry>
         <dmn:outputEntry id="_816C9AD9-14DA-4EE3-84DB-5BE7E0F3FA5B">
-          <dmn:text></dmn:text>
+          <dmn:text>3</dmn:text>
         </dmn:outputEntry>
       </dmn:rule>
     </dmn:decisionTable>
