@@ -123,6 +123,20 @@
           <dmn:text>1</dmn:text>
         </dmn:outputEntry>
       </dmn:rule>
+      <dmn:rule id="_890E865E-691F-4697-BD98-AE106D33A260">
+        <dmn:inputEntry id="_6169D604-F682-4B58-BF09-3FA51BCE8990">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_F7CC213C-7424-458B-A70E-897D5D206BDF">
+          <dmn:text>"driving under the influence"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_0215F76D-025E-4E52-B3E4-09BE552D1472">
+          <dmn:text>1000</dmn:text>
+        </dmn:outputEntry>
+        <dmn:outputEntry id="_17DCF5D2-F5F3-4A91-BA08-22DB1411E1F5">
+          <dmn:text>5</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
     </dmn:decisionTable>
   </dmn:decision>
   <dmn:inputData id="_CAD973DE-381C-4309-8251-62412ACF11D8" name="Violation">
