@@ -99,7 +99,7 @@
           <dmn:text>"speed"</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_134B047F-BB83-437F-8969-760C3298E525">
-          <dmn:text>(10..30)</dmn:text>
+          <dmn:text>[10..30)</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_7207C16C-5862-42D9-B9AA-ECCDB338D38B">
           <dmn:text>500</dmn:text>
@@ -174,7 +174,7 @@
           <kie:ComponentWidths dmnElementRef="_9A31E38B-65B4-4C66-975E-7A2B1181AFFD">
             <kie:width>50.0</kie:width>
             <kie:width>332.0</kie:width>
-            <kie:width>100.0</kie:width>
+            <kie:width>341.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
